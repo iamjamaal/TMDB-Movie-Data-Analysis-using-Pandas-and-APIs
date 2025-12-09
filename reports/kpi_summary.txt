@@ -1,7 +1,7 @@
 TMDB MOVIE ANALYSIS - KPI SUMMARY
 ================================================================================
 
-Analysis Date: 2025-12-09 11:21:42.201420
+Analysis Date: 2025-12-09 14:25:19.642333
 Total Movies Analyzed: 18
 
 Franchise Movies: 16

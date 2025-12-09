@@ -1,0 +1,11 @@
+{
+  "generation_date": "2025-12-09T15:03:17.382802",
+  "total_movies_analyzed": 18,
+  "visualizations_created": 6,
+  "figures_location": "../reports/figures/",
+  "key_insights": {
+    "highest_revenue_movie": "Avatar",
+    "most_popular_genre": "Adventure",
+    "franchise_revenue_advantage": "-82.47M"
+  }
+}
