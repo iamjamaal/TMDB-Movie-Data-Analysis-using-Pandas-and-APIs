@@ -34,47 +34,44 @@ This project implements a complete ETL (Extract, Transform, Load) pipeline to an
 
 
 
-
-                Project Structure
+              Project Structure
 
 TMDB-Movie-Data-Analysis-using-Pandas-and-APIs/
 │
-├── config.py # API configuration and movie IDs
-├── .env # Environment variables (API key)
-├── .env.example # Template for environment setup
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation (this file)
+├── config.py                      # API configuration and movie IDs
+├── .env                           # Environment variables (API key)
+├── .env.example                   # Template for environment setup
+├── requirements.txt               # Python dependencies
+├── README.md                      # Project documentation (this file)
 │
 ├── data/
-│ ├── raw/
-│ │ └── movies_raw.json # Raw API responses (18 movies)
-│ └── final/
-│ └── movies_with_kpis.csv # Cleaned dataset with engineered features
+│   ├── raw/
+│   │   └── movies_raw.json       # Raw API responses (18 movies)
+│   └── final/
+│       └── movies_with_kpis.csv  # Cleaned dataset with engineered features
 │
 ├── notebooks/
-│ ├── 01_data_extraction.ipynb # API data fetching and storage
-│ ├── 02_data_cleaning.ipynb # Data preprocessing and feature engineering
-│ ├── 03_kpi_analysis.ipynb # KPI calculations and rankings
-│ └── 04_visualization.ipynb # Data visualizations and insights
+│   ├── 01_data_extraction.ipynb   # API data fetching and storage
+│   ├── 02_data_cleaning.ipynb     # Data preprocessing and feature engineering
+│   ├── 03_kpi_analysis.ipynb      # KPI calculations and rankings
+│   └── 04_visualization.ipynb     # Data visualizations and insights
 │
 └── reports/
-├── kpi_summary.txt # High-level KPI summary
-├── kpi_detailed_results.txt # Detailed analysis results
-├── final_report.md # Comprehensive final report
-└── figures/
-├── revenue_vs_budget.png
-├── roi_by_genre.png
-├── popularity_vs_rating.png
-├── yearly_trends.png
-├── franchise_vs_standalone.png
-└── genre_distribution.png
+    ├── kpi_summary.txt            # High-level KPI summary
+    ├── kpi_detailed_results.txt   # Detailed analysis results
+    ├── final_report.md            # Comprehensive final report
+    └── figures/
+        ├── revenue_vs_budget.png
+        ├── roi_by_genre.png
+        ├── popularity_vs_rating.png
+        ├── yearly_trends.png
+        ├── franchise_vs_standalone.png
+        └── genre_distribution.png
 
 
 
 
-
-
-              Quick Start
+                     Quick Start
 
 Prerequisites
 - Python 3.8+ (developed on 3.13)
@@ -110,9 +107,32 @@ pip install -r requirements.txt
 
 
 5. Run the analysis
-Execute notebooks in order
-   - jupyter notebook notebooks/01_data_extraction.ipynb
-   -  Then proceed through 02, 03, 04 sequentially
+   
+   Execute notebooks in sequential order:
+   
+   
+   - Step 1: Data Extraction
+   jupyter notebook notebooks/01_data_extraction.ipynb
+   
+   Output:`data/raw/movies_raw.json`
+   
+   
+   - Step 2: Data Cleaning
+   jupyter notebook notebooks/02_data_cleaning.ipynb
+
+   - Output: `data/final/movies_with_kpis.csv`
+   
+
+   - Step 3: KPI Analysis
+   jupyter notebook notebooks/03_kpi_analysis.ipynb
+   
+   - Output:`reports/kpi_summary.txt`, `reports/kpi_detailed_results.txt`
+   
+   
+   - Step 4: Visualization
+   jupyter notebook notebooks/04_visualization.ipynb
+   
+   - Output: `reports/figures/*.png` (6 visualization files)
    
 
 
