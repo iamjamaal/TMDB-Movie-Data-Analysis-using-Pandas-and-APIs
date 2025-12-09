@@ -1,0 +1,19 @@
+TMDB MOVIE ANALYSIS - KPI SUMMARY
+================================================================================
+
+Analysis Date: 2025-12-09 10:36:58.452479
+Total Movies Analyzed: 18
+
+Franchise Movies: 16
+Standalone Movies: 2
+
+FINANCIAL METRICS:
+Average Budget: $0.38M
+Average Revenue: $0.27M
+Average ROI: 717.49%
+Profitable Movies: 18
+
+QUALITY METRICS:
+Average Rating: 0.51/10
+Average Runtime: 0 minutes
+Average Popularity: 0.26
