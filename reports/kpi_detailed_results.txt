@@ -1,0 +1,40 @@
+TMDB MOVIE DATA ANALYSIS - DETAILED KPI RESULTS
+================================================================================
+
+
+Highest Revenue:
+--------------------------------------------------------------------------------
+                          title release_date  revenue_musd  budget_musd  vote_average  vote_count                                    genres       director
+1                        Avatar   2009-12-15   2923.706026        237.0         7.594       32883  Action|Adventure|Fantasy|Science Fiction  James Cameron
+0             Avengers: Endgame   2019-04-24   2799.439100        356.0         8.237       26978          Adventure|Science Fiction|Action  Anthony Russo
+4                       Titanic   1997-11-18   2264.162353        200.0         7.903       26519                             Drama|Romance  James Cameron
+2  Star Wars: The Force Awakens   2015-12-15   2068.223624        245.0         7.300       20104          Adventure|Action|Science Fiction    J.J. Abrams
+3        Avengers: Infinity War   2018-04-25   2052.415039        300.0         8.235       31188          Adventure|Action|Science Fiction      Joe Russo
+
+
+Highest ROI:
+--------------------------------------------------------------------------------
+                                           title release_date          roi  budget_musd  revenue_musd  vote_average  vote_count                                     genres         director
+1                                         Avatar   2009-12-15  1133.631235        237.0   2923.706026         7.594       32883   Action|Adventure|Fantasy|Science Fiction    James Cameron
+4                                        Titanic   1997-11-18  1032.081177        200.0   2264.162353         7.903       26519                              Drama|Romance    James Cameron
+5                                 Jurassic World   2015-06-06  1014.358296        150.0   1671.537444         6.699       21127  Action|Adventure|Science Fiction|Thriller  Colin Trevorrow
+11  Harry Potter and the Deathly Hallows: Part 2   2011-07-12   973.208975        125.0   1341.511219         8.084       21464                          Adventure|Fantasy      David Yates
+13                                     Frozen II   2019-11-20   869.122317        150.0   1453.683476         7.241       10078  Family|Animation|Adventure|Comedy|Fantasy     Jennifer Lee
+
+
+Highest Rated:
+--------------------------------------------------------------------------------
+                                           title release_date  vote_average  budget_musd  revenue_musd  vote_count                            genres       director
+0                              Avengers: Endgame   2019-04-24         8.237        356.0   2799.439100       26978  Adventure|Science Fiction|Action  Anthony Russo
+3                         Avengers: Infinity War   2018-04-25         8.235        300.0   2052.415039       31188  Adventure|Action|Science Fiction      Joe Russo
+11  Harry Potter and the Deathly Hallows: Part 2   2011-07-12         8.084        125.0   1341.511219       21464                 Adventure|Fantasy    David Yates
+4                                        Titanic   1997-11-18         7.903        200.0   2264.162353       26519                     Drama|Romance  James Cameron
+7                                   The Avengers   2012-04-25         7.870        220.0   1518.815515       34325  Science Fiction|Action|Adventure    Joss Whedon
+
+
+Franchise vs Standalone:
+--------------------------------------------------------------------------------
+            Mean Revenue ($M)  Median ROI (%)  Mean Budget ($M)  Mean Popularity  Mean Rating  Movie Count
+Standalone            1765.14          861.70             180.0            16.63         7.44            2
+Franchise             1682.67          678.61             218.0            15.00         7.39           16
+
